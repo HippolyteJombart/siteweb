@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Gentle Mates fan site : Fortnite</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="./Image/autres/M8.png" rel="shortcut icon" type="image/x-icon">
+</head>
+<body>
+<br>
+<br>
+<table class="tableau-jeux">
+    <tr>
+        <td><img class="fncs" src="./Image/autres/FNCS_gold.png"></td>
+        <td><a href="MainPage.html"><button class="bouttonInvisible"><img id="logo" src="./Image/autres/logo.jpg"></button></a></td>
+        <td><img class="fncs" src="./Image/autres/FNCS_silver.png"></td>
+    </tr>
+    <tr>
+        <td><div class="center"><button onclick="swipeLeft()" type="swipe" class="BouttonSwipe"> &#8592 </button></div></td>
+        <td><div class="center"><img id="joueur_image" src="./Image/joueurs/fortnite/akiraa.png"></div></td>
+        <td><div class="center"><button onclick="swipeRight()" type="swipe" class="BouttonSwipe"> &#8594 </button></div></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><div class="nom" id="joueur_nom">Akiraa</div></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><div class="nom" id="joueur_texte">Meilleur français de l’année 2025, Akiraa loupe de peu la qualification pour la coupe du monde à Lyon, encore mineur c’est sûrement lui, l’espoir français le plus à suivre. On lui prédit un avenir esportif brillant dans lequel il se battra avec les plus grands joueurs européens et mondiaux.</div></td>
+        <td></td>
+    </tr>
+</table>
+<br>
+<br>
+<center><input type="text" name="comm" placeholder="Message" class="message"></center>
+<br>
+<center><button class="btn" onclick="send()" type="ajouter" id="BouttonMessage"> Envoyer </button></center>
+</body>
+<script src="fortnite_script.js"></script>
+</html>

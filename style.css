@@ -1,0 +1,204 @@
+body{
+    background-image: linear-gradient(to top, #A266B8, #301E4F);
+    background-attachment: fixed;
+}
+
+img{
+    border-radius: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+
+.message{
+    text-align: center;
+    font-size: 30px;
+    font-family: Magneto;
+}
+
+.bouttonJeux{
+    cursor: pointer;
+    border: 0;
+    background-color: transparent;
+    box-shadow: 0 0 0;
+}
+
+
+.bouttonInvisible{
+    cursor: pointer;
+    border: 0;
+    background-color: transparent;
+    box-shadow: 0 0 0;
+}
+
+.tableau-jeux{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fncs{
+    height: 176px;
+    width: 200px;
+}
+
+.BouttonSwipe{
+    cursor: pointer;
+    border: 0;
+    background-color: transparent;
+    box-shadow: 0 0 0;
+    font-size: 50px;
+}
+
+.center{
+    text-align: center;
+}
+
+.nom{
+    text-align: center;
+    font-size: 30px;
+    font-family: Magneto;
+}
+
+#BouttonMessage{
+    
+}
+
+#logo{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#joueur_image{
+    margin-right: auto;
+    margin-left: auto;
+    height: 600px;
+    width: 400px;
+}
+
+#rocketleague{
+    color: #ff02f1;
+    font-size: 50px;
+    font-family: Magneto;
+    text-align: center;
+    padding-top: 10px;
+    background-image:url("./Image/jeux/rocketleague.jpg");
+    height: 390px;
+    width: 720px;
+    border-radius: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+
+
+#valorant{
+    color: #ff02f1;
+    font-size: 50px;
+    font-family: Magneto;
+    text-align: center;
+    padding-top: 10px;
+    background-image:url("./Image/jeux/valorant.jpg");
+    height: 390px;
+    width: 720px;
+    border-radius: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+
+#cod{
+    color: #6bff00;
+    font-size: 50px;
+    font-family: Magneto;
+    text-align: center;
+    padding-top: 10px;
+    background-image:url("./Image/jeux/cod.jpg");
+    height: 590px;
+    width: 480px;
+    border-radius: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+
+#aoe{
+    color: #ff02f1;
+    font-size: 50px;
+    font-family: Magneto;
+    text-align: center;
+    padding-top: 10px;
+    background-image:url("./Image/jeux/aoe.jpg");
+    height: 590px;
+    width: 480px;
+    border-radius: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+
+#tft{
+    color: #ff02f1;
+    font-size: 50px;
+    font-family: Magneto;
+    text-align: center;
+    padding-top: 10px;
+    background-image:url("./Image/jeux/tft.jpg");
+    height: 590px;
+    width: 480px;
+    border-radius: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+
+#fortnite{
+    color: #ff02f1;
+    font-size: 50px;
+    font-family: Magneto;
+    text-align: center;
+    padding-top: 10px;
+    background-image:url("./Image/jeux/fortnite.jpg");
+    height: 390px;
+    width: 720px;
+    border-radius: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+
+#cs{
+    color: #ff02f1;
+    font-size: 50px;
+    font-family: Magneto;
+    text-align: center;
+    padding-top: 10px;
+    background-image:url("./Image/jeux/cs.jpg");
+    height: 390px;
+    width: 720px;
+    border-radius: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+
+#commu{
+    color: #ff02f1;
+    font-size: 50px;
+    font-family: Gill Sans MT;
+    text-align: center;
+    padding-top: 10px;
+    background-image:url("./Image/jeux/commu.jpg");
+    height: 390px;
+    width: 680px;
+    border-radius: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+
+#texte-commu{
+    color: #B9D533;
+    font-size: 50px;
+    font-family: Magneto;
+    text-align: center;
+}
