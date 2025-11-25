@@ -1,6 +1,8 @@
 body{
     background-image: linear-gradient(to top, #A266B8, #301E4F);
     background-attachment: fixed;
+    text-align: center;
+    font-family: Magneto;
 }
 
 img{
@@ -57,6 +59,14 @@ img{
     text-align: center;
     font-size: 30px;
     font-family: Magneto;
+}
+
+.texte-principale{
+    text-align: center;
+    font-size: 30px;
+    font-family: Magneto;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 #BouttonMessage{
