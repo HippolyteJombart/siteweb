@@ -9,8 +9,19 @@
 <div id="navbar"><a href="MainPage.html">Accueil</a> | <a href="Histoire.html">Histoire</a> | <a href="Rosters.html">Roster</a> | <a href="Contact.html">Contact</a></div>
 <br>
 <br>
+<form action="mailto:jombarthippolyte@gmail.com" method="get" enctype="text/plain">
+    <label for="name">Nom</label><br>
+    <input type="text" id="name" name="Nom" required><br>
 
-<a href="mailto:jombarthippolyte@gmail.com">Contactez-nous !</a>
+    <label for="email">Email</label><br>
+    <input type="email" id="email" name="Email" required><br>
+
+    <label for="msg">Message</label><br>
+    <textarea id="msg" name="Message" required></textarea><br>
+    <br>
+    <button type="submit">Envoyer</button>
+</form>
+
 
 </body>
 </html>
