@@ -14,13 +14,21 @@ img{
 
 h1{
     font-family: Leelawadee;
+    font-size: 40px;
     
 }
 
-.message{
+#message{
     text-align: center;
     font-size: 30px;
-    font-family: Magneto;
+    font-family: Leelawadee;
+}
+
+#nom{
+    text-align: center;
+    font-size: 30px;
+    font-family: Leelawadee;
+    width: 200px;
 }
 
 .bouttonJeux{
@@ -66,12 +74,39 @@ h1{
     font-family: Magneto;
 }
 
+
 .texte-principale{
+    text-align: center;
+    font-size: 30px;
+    font-family: Leelawadee;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.texte-histoire{
     text-align: center;
     font-size: 30px;
     font-family: Leelawadee;
     margin-left: 100px;
     margin-right: 100px;
+}
+
+#navbar{
+    font-size: 20px;
+}
+
+#logo-left{
+    float: left;
+    margin-left: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+#logo-right{
+    float: right;
+    margin-right: 20px;
+    width: 200px;
+    height: 200px;
 }
 
 #major{
@@ -127,6 +162,37 @@ h1{
     margin-left: auto;
     height: 600px;
     width: 400px;
+}
+
+
+#boutton-livre{
+    color: #ff02f1;
+    font-size: 50px;
+    font-family: Magneto;
+    text-align: center;
+    padding-top: 10px;
+    background-image:url("./Image/autres/livre.jpg");
+    height: 400px;
+    width: 705px;
+    border-radius: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+
+#boutton-equipe{
+    color: #ff02f1;
+    font-size: 50px;
+    font-family: Magneto;
+    text-align: center;
+    padding-top: 10px;
+    background-image:url("./Image/autres/equipe2.jpg");
+    height: 400px;
+    width: 705px;
+    border-radius: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 20px;
 }
 
 #rocketleague{

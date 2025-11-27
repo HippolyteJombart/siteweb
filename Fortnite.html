@@ -6,6 +6,7 @@
     <link href="./Image/autres/M8.png" rel="shortcut icon" type="image/x-icon">
 </head>
 <body>
+<div id="navbar"><a href="MainPage.html">Accueil</a> | <a href="Histoire.html">Histoire</a> | <a href="Rosters.html">Roster</a> | <a href="Contact.html">Contact</a></div>
 <br>
 <br>
 <table class="tableau-jeux">
@@ -32,9 +33,12 @@
 </table>
 <br>
 <br>
-<center><input type="text" name="comm" placeholder="Message" class="message"></center>
+<center><input type="text" name="nom" placeholder="Nom" id="nom"></center>
+<center><input type="text" name="comm" placeholder="Message" id="message"></center>
 <br>
 <center><button class="btn" onclick="send()" type="ajouter" id="BouttonMessage"> Envoyer </button></center>
+
+<table class="tableau-jeux" id="livre-or"></table>
 </body>
 <script src="fortnite_script.js"></script>
 </html>

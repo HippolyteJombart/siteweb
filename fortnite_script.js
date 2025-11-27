@@ -25,3 +25,26 @@ function swipeLeft(){
     current_joueur_nom.innerText = pseudo_joueurs[(indice%(image_joueurs.length))]
     current_joueur_texte.innerText = texte_joueurs[(indice%(image_joueurs.length))]
 }
+
+function send(){
+    var nom = document.getElementById("nom").value
+    var message = document.getElementById("message").value
+    //var date = Date.now()
+    //var dateActuelle = date.getDate();
+    
+    livreOr = document.getElementById("livre-or")
+
+    ligne = document.createElement("tr")
+    _nom = document.createElement("td")
+    _message = document.createElement("td")
+    _date = document.createElement("td")
+
+    _nom.innerText = nom
+    _message.innerText = message
+    //_date.innerText = dateActuelle
+    ligne.appendChild(_nom)
+    ligne.appendChild(_message)
+    //ligne.appendChild(_date)
+    livreOr.appendChild(ligne)
+
+}
