@@ -12,6 +12,11 @@ img{
     margin-bottom: 20px;
 }
 
+h1{
+    font-family: Leelawadee;
+    
+}
+
 .message{
     text-align: center;
     font-size: 30px;
@@ -64,9 +69,48 @@ img{
 .texte-principale{
     text-align: center;
     font-size: 30px;
-    font-family: Magneto;
+    font-family: Leelawadee;
     margin-left: 100px;
     margin-right: 100px;
+}
+
+#major{
+    float: left;
+    width: 900px;
+    height: 600px;
+    margin-top: 35px;
+}
+
+#fn{
+    float: left;
+    margin-top: 20px;
+}
+
+#equipe{
+    float: right;
+    width: 900px;
+    height: 600px;
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+
+#paris{
+    float: left;
+    margin-top: 50px;
+}
+
+#lag{
+    float: right;
+    width: 600px;
+    height: 600px;
+    margin-top: 20px;
+}
+
+#ascension{
+    float: right;
+    width: 900px;
+    height: 600px;
+    margin-top: 40px;
 }
 
 #BouttonMessage{
