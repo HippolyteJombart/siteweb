@@ -34,11 +34,18 @@
 <br>
 <br>
 <center><input type="text" name="nom" placeholder="Nom" id="nom"></center>
-<center><input type="text" name="comm" placeholder="Message" id="message"></center>
+<br>
+<center><textarea type="text" name="comm" placeholder="Message" id="message"></textarea></center>
 <br>
 <center><button class="btn" onclick="send()" type="ajouter" id="BouttonMessage"> Envoyer </button></center>
-
-<table class="tableau-jeux" id="livre-or"></table>
+<br><br>
+<table class="tableau-comme" id="livre-or">
+    <tr>
+        <th class="cellule-comme"><div class="comme">Nom</div></th>
+        <th class="cellule-comme"><div class="comme">Commentaires</div></th>
+        <th class="cellule-comme"><div class="comme">Date</div></th>
+    </tr>
+</table>
 </body>
 <script src="fortnite_script.js"></script>
 </html>

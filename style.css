@@ -5,6 +5,10 @@ body{
     font-family: Magneto;
 }
 
+textarea{
+    resize: none;
+}
+
 img{
     border-radius: 50px;
     margin-left: 15px;
@@ -15,20 +19,6 @@ img{
 h1{
     font-family: Leelawadee;
     font-size: 40px;
-    
-}
-
-#message{
-    text-align: center;
-    font-size: 30px;
-    font-family: Leelawadee;
-}
-
-#nom{
-    text-align: center;
-    font-size: 30px;
-    font-family: Leelawadee;
-    width: 200px;
 }
 
 .bouttonJeux{
@@ -38,6 +28,9 @@ h1{
     box-shadow: 0 0 0;
 }
 
+.contact{
+    font-size: 30px;
+}
 
 .bouttonInvisible{
     cursor: pointer;
@@ -53,6 +46,11 @@ h1{
 
 .fncs{
     height: 176px;
+    width: 200px;
+}
+
+.valo{
+    height: 200px;
     width: 200px;
 }
 
@@ -76,7 +74,7 @@ h1{
 
 
 .texte-principale{
-    text-align: center;
+    text-align: justify;
     font-size: 30px;
     font-family: Leelawadee;
     margin-left: 300px;
@@ -84,12 +82,103 @@ h1{
 }
 
 .texte-histoire{
-    text-align: center;
+    text-align: justify;
     font-size: 30px;
     font-family: Leelawadee;
     margin-left: 100px;
     margin-right: 100px;
 }
+
+.comme{
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.cellule-comme{
+    border:  1px black solid;
+    border-collapse: collapse;
+}
+
+.tableau-comme{
+    margin-left: auto;
+    margin-right: auto;
+    border:  1px black solid;
+    border-collapse: collapse;
+    font-size: 30px;
+}
+
+#name{
+    width: 300px;
+    height: 50px;
+    background-color: #E2BACE;
+    font-size: 30px;
+    font-family: Magneto;
+    border-radius: 50px;
+}
+
+#email{
+    width: 500px;
+    height: 50px;
+    background-color: #E2BACE;
+    font-size: 30px;
+    font-family: Magneto;
+    border-radius: 50px;
+}
+
+
+#msg{
+    width: 1200px;
+    height: 320px;
+    background-color: #E2BACE;
+    font-size: 30px;
+    font-family: Leelawadee;
+    border-radius: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#send{
+    width: 200px;
+    height: 100px;
+    background-color: #ec1983;
+    font-size: 30px;
+    font-family: Magneto;
+    border: none;
+    border-radius: 50px;
+    color: black;
+}
+
+#message{
+    background-color: #E2BACE;
+    text-align: center;
+    font-size: 30px;
+    font-family: Leelawadee;
+    width: 500px;
+    height: 150px;
+}
+
+#nom{
+    background-color: #E2BACE;
+    text-align: center;
+    font-size: 30px;
+    font-family: Leelawadee;
+    width: 200px;
+}
+
+#BouttonMessage{
+    width: 200px;
+    height: 50px;
+    background-color: #f363a9;
+    font-size: 30px;
+    font-family: Magneto;
+    border-radius: 50px;
+    color: black;
+}
+
 
 #navbar{
     font-size: 20px;
@@ -146,10 +235,6 @@ h1{
     width: 900px;
     height: 600px;
     margin-top: 40px;
-}
-
-#BouttonMessage{
-    
 }
 
 #logo{
@@ -227,14 +312,14 @@ h1{
 }
 
 #cod{
-    color: #6bff00;
+    color: #ff02f1;
     font-size: 50px;
     font-family: Magneto;
     text-align: center;
     padding-top: 10px;
     background-image:url("./Image/jeux/cod.jpg");
-    height: 590px;
-    width: 480px;
+    height: 400px;
+    width: 800px;
     border-radius: 50px;
     margin-left: 15px;
     margin-right: 15px;
@@ -256,6 +341,21 @@ h1{
     margin-bottom: 20px;
 }
 
+#fgc{
+    color: #ff02f1;
+    font-size: 50px;
+    font-family: Magneto;
+    text-align: center;
+    padding-top: 10px;
+    background-image:url("./Image/jeux/2xko.jpg");
+    height: 400px;
+    width: 800px;
+    border-radius: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+
 #tft{
     color: #ff02f1;
     font-size: 50px;
@@ -263,6 +363,22 @@ h1{
     text-align: center;
     padding-top: 10px;
     background-image:url("./Image/jeux/tft.jpg");
+    height: 590px;
+    width: 480px;
+    border-radius: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+
+
+#warzone{
+    color: #ff02f1;
+    font-size: 50px;
+    font-family: Magneto;
+    text-align: center;
+    padding-top: 10px;
+    background-image:url("./Image/jeux/warzone.jpg");
     height: 590px;
     width: 480px;
     border-radius: 50px;

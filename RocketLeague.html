@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Gentle Mates fan site : Fortnite</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="./Image/autres/M8.png" rel="shortcut icon" type="image/x-icon">
+</head>
+<body>
+<div id="navbar"><a href="MainPage.html">Accueil</a> | <a href="Histoire.html">Histoire</a> | <a href="Rosters.html">Roster</a> | <a href="Contact.html">Contact</a></div>
+<br>
+<br>
+<table class="tableau-jeux">
+    <tr>
+        <td><img class="valo" src="./Image/autres/rl.png"></td>
+        <td><center><a href="MainPage.html"><button class="bouttonInvisible"><img id="logo" src="./Image/autres/logo.jpg"></button></a></center></td>
+        <td><img class="valo" src="./Image/autres/rl2.png"></td>
+    </tr>
+    <tr>
+        <td><div class="center"><button onclick="swipeLeft()" type="swipe" class="BouttonSwipe"> &#8592 </button></div></td>
+        <td><div class="center"><img id="joueur_image" src="./Image/joueurs/rl/archie.png"></div></td>
+        <td><div class="center"><button onclick="swipeRight()" type="swipe" class="BouttonSwipe"> &#8594 </button></div></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><div class="nom" id="joueur_nom">Archie</div></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><div class="nom" id="joueur_texte">Meilleur français de l’année 2025, Akiraa loupe de peu la qualification pour la coupe du monde à Lyon, encore mineur c’est sûrement lui, l’espoir français le plus à suivre. On lui prédit un avenir esportif brillant dans lequel il se battra avec les plus grands joueurs européens et mondiaux.</div></td>
+        <td></td>
+    </tr>
+</table>
+<br>
+<br>
+<center><input type="text" name="nom" placeholder="Nom" id="nom"></center>
+<br>
+<center><textarea type="text" name="comm" placeholder="Message" id="message"></textarea></center>
+<br>
+<center><button class="btn" onclick="send()" type="ajouter" id="BouttonMessage"> Envoyer </button></center>
+<br><br>
+<table class="tableau-comme" id="livre-or">
+    <tr>
+        <th class="cellule-comme"><div class="comme">Nom</div></th>
+        <th class="cellule-comme"><div class="comme">Commentaires</div></th>
+        <th class="cellule-comme"><div class="comme">Date</div></th>
+    </tr>
+</table>
+</body>
+<script src="rl_script.js"></script>
+</html>
